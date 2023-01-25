@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recuperacion mision javascript, css y html</title>
+    <link rel="stylesheet" href="misionrecjav.css">
+</head>
+<body>
+    <header>
+        <div class="cliente">clientes</div>
+    </header>
+    <div class="container">
+        <div class="second">
+            <div class="d1">
+                <input type="checkbox" id="btn-modal">
+                <label for="btn-modal" class="lbl-modal">crear cliente</label> 
+            </div>
+            <div class="d2">
+               <form action="">
+                <p>
+                    <input type="search" name="busquedacodigo" size="4" maxlength="4">
+                    <input type="submit" value="Buscar">
+                  </p>
+               </form>
+            </div>
+        </div>
+        <table border="1">
+            <thead>
+                <tr style="background-color: rgb(155, 83, 204)">
+                    <td>Nombre</td>
+                    <td>Apellido</td>
+                    <td>NIT/CC</td>
+                    <td>Direccion</td>
+                    <td>Ciudad</td>
+                    <td>Telefono</td>
+                    <td>Cupo disponible</td>
+                    <td>estado</td>
+                    <td>acciones</td>
+                </tr>
+            </thead>
+            <tbody> 
+                <tr>
+                    <td>Gustavo</td>
+                    <td>Cardenas</td>
+                    <td>91280223</td>
+                    <td>cll 35 32 85</td>
+                    <td>Bucaramanga</td>
+                    <td>315 374 6353</td>
+                    <td>$85.000.000</td>
+                    <td>activo</td>
+                    <td><button><a href="https://cdn-icons-png.flaticon.com/512/8392/8392746.png"></a></button><button></button></td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <div class="modal">
+            <div class="contenedor">
+                <div class="btnm">
+                    <label class="btnmod" for="btn-modal">Atras</label>
+                </div>
+                <div class="form">
+                    <form action="" class="basico"> 
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="nombre"></li> 
+                        <label for="lastname">Apellido:</label>
+                        <input type="text" id="lastname" name="apellido"></li>
+                        <label for="name">NIT/CC:</label>
+                        <input type="number" id="NIT" name="nit-cc">
+                    
+                        <label for="name">Direccion:</label>
+                        <input type="text" id="address" name="direccion">
+                    
+                        <label for="ciudad">ciudad:</label>
+                        <input type="text" id="city" name="ciudad">
+                        <label for="telefono">Telefono:</label>
+                        <input type="number" id="phone" name="telefono">
+                    
+                    <li class="button">
+                        <button type="submit">Guardar Cambios</button>
+                    </li>  
+                </form>
+                <form action="" class="cup">
+
+                            <label for="cupo-tot">Cupo Total:</label>
+                            <input type="number" id="cupo-tot" name="cupo-tot"> 
+                        
+
+                            <label for="cupo-dis">Cupo disponible:</label>
+                            <input type="number" id="cupo-dis" name="cupo-dis">
+                        
+
+                            <label for="grat-day">Dias de gracia:</label>
+                            <input type="number" id="grat-day" name="grat-day">   
+                    </form>
+                </div>
+            </div>
+        </div>
+    <script src="misionrecjav.js"></script>
+</body>
+</html>
